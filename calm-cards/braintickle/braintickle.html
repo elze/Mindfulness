@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mindful</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -17,28 +17,32 @@
         <section>
             <div class='container'>
                 <h1>Brain Tickle</h1>
-                <p>Description here</p>
                 
-                <div class='img-carousel'>
+                <div class='img-carousel center-block text-center'>
                     <div id='step-1' class='showing steps'>
                         <img src='/images/braintickle/touch-head.png'>
                         <p>Place your index finger to your forehead.</p>
                     </div>
                     
-                    <div id='step-2' class='steps'> 
-                        <img src='/images/braintickle/texture-icon.png'>
-                        <img src='/images/braintickle/temperature-icon.png'>
-                        <img src='/images/braintickle/moisture-icon.jpg'>
-                        <p>Quietly notice all the sensations in your finger and your forehead.</p>
+                    <div id='step-2' class='steps center-block'> 
+                        <img src='/images/braintickle/touch-head.png' id='head'>
+                        <img src='/images/braintickle/texture-icon.png' id='texture-img' class='symptom'>
+                        <img src='/images/braintickle/temperature-icon.png'  id='temp-img' class='symptom'>
+                        <img src='/images/braintickle/moisture-icon.jpg'  id='moisture-img' class='symptom'>
+
+                        <h2 class='symptom-text' id='texture-text'>Texture</h2>
+                        <h2 class='symptom-text' id='temp-text'>Temperature</h2>
+                        <h2 class='symptom-text' id='moisture-text'>Moisture</h2>
                     </div>
-                    
-                    
+         <!--             
                     <div id='step-3' class='steps'>
                         <img src='/images/braintickle/touch-texture.png'>
                         <img src='/images/braintickle/touch-temperature.png'>                        
                         <img src='/images/braintickle/touch-moisture.png'>
                         <p>Temperature, Texture, Moisture.... What else?</p>
                     </div>
+
+-->
                     
                 </div>
 
