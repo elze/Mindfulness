@@ -57,7 +57,7 @@
   right: -18%;
 }
 
-.symptom, .symptom-text {
+.symptom, .symptom-text, #head {
   -webkit-animation: fadein 42s ease-in-out infinite;
   /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 42s ease-in-out infinite;
