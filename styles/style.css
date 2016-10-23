@@ -1,9 +1,8 @@
-section h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+* {
+  font-family: 'Shadows Into Light Two', cursive;
 }
-section p {
-  font-family: 'Open Sans', sans-serif;
+* section h1 {
+  font-size: 5em;
 }
 
 .container {
@@ -12,7 +11,6 @@ section p {
 
 .mood-list {
   padding: 5px;
-  font-family: 'Shadows Into Light Two', cursive;
   margin: 0 auto;
 }
 .mood-list h2 {
