@@ -2,9 +2,9 @@
   position: relative;
 }
 
-#img-carousel {
-  min-height: 500px;
-  min-width: 500px;
+#carousel {
+  min-height: 385px;
+  min-width: 385px;
   margin-bottom: 0;
 }
 
