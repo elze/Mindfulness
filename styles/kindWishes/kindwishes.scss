@@ -1,3 +1,23 @@
+#audiobtns {
+    position: relative;
+    top: 20px;
+    
+}
+
+
+#img-carousel {
+    min-height:500px;
+    min-width: 500px;
+    border:5px solid red;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
 .steps {
     
 }
@@ -22,11 +42,11 @@
 }
 
 .steps {
-    -webkit-animation: fadebears 120s ease-out infinite; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadebears 120s ease-out infinite; /* Firefox < 16 */
-        -ms-animation: fadebears 120s ease-out infinite; /* Internet Explorer */
-         -o-animation: fadebears 120s ease-out infinite; /* Opera < 12.1 */
-            animation: fadebears 120s ease-out infinite;
+    -webkit-animation: fadebears 55s ease-out infinite; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadebears 55s ease-out infinite; /* Firefox < 16 */
+        -ms-animation: fadebears 55s ease-out infinite; /* Internet Explorer */
+         -o-animation: fadebears 55s ease-out infinite; /* Opera < 12.1 */
+            animation: fadebears 55s ease-out infinite;
     
     @keyframes fadebears {
         0%   { opacity: 1; }
