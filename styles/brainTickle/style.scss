@@ -1,0 +1,102 @@
+
+/**************************************** Brain Tickle ****************************************/
+
+#audiobtns {
+    position: relative;
+    
+}
+
+.img-carousel {
+    min-height:500px;
+    min-width: 500px;
+    margin-bottom: 0;
+}
+
+#head {
+    z-index: -5;
+    position: absolute;
+}
+
+#texture-img {
+    position: relative;
+    right:-18%;    
+    top:0px;
+}
+
+
+#texture-img, #texture-text {
+    opacity: 0;
+}
+
+#temp-img {
+    position: relative;
+    right:-3%;
+    top:0px;
+}
+
+#temp-img, #temp-text {
+    opacity: 0;
+    -webkit-animation-delay: 14s; 
+            animation-delay: 14s;
+}
+
+#moisture-img {
+    opacity: 0;
+    position: relative;
+    right:5%;    
+    top:0px;
+}
+
+#moisture-img, #moisture-text {
+    opacity: 0;
+    -webkit-animation-delay: 28s; 
+            animation-delay: 28s;    
+}
+
+.symptom-text {
+    position:relative;
+    right:-18%;
+}
+
+
+.symptom, .symptom-text {
+    -webkit-animation: fadein 42s ease-in infinite; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 42s ease-in infinite; /* Firefox < 16 */
+        -ms-animation: fadein 42s ease-in infinite; /* Internet Explorer */
+         -o-animation: fadein 42s ease-in infinite; /* Opera < 12.1 */
+            animation: fadein 42s ease-in infinite;
+    
+    @keyframes fadein {
+        0% { opacity: 1; }
+        32%   { opacity: 1; }
+        33% {opacity: 0;}
+    }
+
+    /* Firefox < 16 */
+    @-moz-keyframes fadein {
+        0% { opacity: 1; }
+        32%   { opacity: 1; }
+        33% {opacity: 0;}
+    }
+
+    /* Safari, Chrome and Opera > 12.1 */
+    @-webkit-keyframes fadein {
+        0% { opacity: 1; }
+        32%   { opacity: 1; }
+        33% {opacity: 0;}
+    }
+
+    /* Internet Explorer */
+    @-ms-keyframes fadein {
+        0% { opacity: 1; }
+        32%   { opacity: 1; }
+        33% {opacity: 0;}
+    }
+
+    /* Opera < 12.1 */
+    @-o-keyframes fadein {
+        0% { opacity: 1; }
+        32%   { opacity: 1; }
+        33% {opacity: 0;}
+}
+}

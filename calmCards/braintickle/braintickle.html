@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mindful</title>
     <link rel="stylesheet" href="../../styles/style.css">
+    <link rel="stylesheet" href="../../styles/brainTickle/style.css"
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -18,7 +19,7 @@
             <div class='container'>
                 <h1>Brain Tickle</h1>
                 
-                <div class='img-carousel center-block text-center'>
+                <div class='carousel center-block text-center'>
                     
                     <div id='step-2' class='steps center-block'> 
                         <img src='../../images/braintickle/touchHead.png' id='head'>
@@ -30,16 +31,18 @@
                         <h2 class='symptom-text' id='temp-text'>Temperature</h2>
                         <h2 class='symptom-text' id='moisture-text'>Moisture</h2>
                     </div>
-         <!--             
-                    <div id='step-3' class='steps'>
-                        <img src='/images/braintickle/touch-texture.png'>
-                        <img src='/images/braintickle/touch-temperature.png'>                        
-                        <img src='/images/braintickle/touch-moisture.png'>
-                        <p>Temperature, Texture, Moisture.... What else?</p>
-                    </div>
-
--->
                     
+                </div>
+                
+                
+                <audio id='player' autoplay>
+                    <source src="../../audio/brainTickle.m4a" type="audio/mpeg">
+                    Your browser does not support this audio element.
+                </audio>
+                <div id='audiobtns' class='text-center'>
+                    <button class='btn text-center audiocntrl' onclick="document.getElementById('player').play()"><i class="fa fa-play" aria-hidden="true"></i></button>
+                    <button class='btn text-center audiocntrl' onclick="document.getElementById('player').pause()"><i class="fa fa-pause" aria-hidden="true"></i></button>
+>
                 </div>
 
                 
