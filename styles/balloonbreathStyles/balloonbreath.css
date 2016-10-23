@@ -6,9 +6,11 @@
   min-height: 500px;
   min-width: 500px;
   margin-bottom: 0;
+  padding-top: 15%;
 }
 
 #balloongif {
+  position: absolute;
   height: 300px;
   width: 300px;
   background-image: url(/images/balloon-breath/Balloon-Breath.gif);
