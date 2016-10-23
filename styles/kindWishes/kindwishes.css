@@ -16,15 +16,15 @@
 #step-2 {
   position: absolute;
   opacity: 0;
-  -webkit-animation-delay: 20s;
-  animation-delay: 20s;
+  -webkit-animation-delay: 18s;
+  animation-delay: 18s;
 }
 
 #step-3 {
   position: absolute;
   opacity: 0;
-  -webkit-animation-delay: 40s;
-  animation-delay: 40s;
+  -webkit-animation-delay: 33s;
+  animation-delay: 33s;
 }
 
 .steps {
@@ -46,10 +46,10 @@
   0% {
     opacity: 1;
   }
-  32% {
+  31% {
     opacity: 1;
   }
-  33% {
+  32% {
     opacity: 0;
   }
 }
@@ -57,10 +57,10 @@
   0% {
     opacity: 1;
   }
-  32% {
+  31% {
     opacity: 1;
   }
-  33% {
+  32% {
     opacity: 0;
   }
 }
@@ -68,10 +68,10 @@
   0% {
     opacity: 1;
   }
-  32% {
+  31% {
     opacity: 1;
   }
-  33% {
+  32% {
     opacity: 0;
   }
 }
@@ -79,10 +79,10 @@
   0% {
     opacity: 1;
   }
-  32% {
+  31% {
     opacity: 1;
   }
-  33% {
+  32% {
     opacity: 0;
   }
 }
@@ -90,10 +90,10 @@
   0% {
     opacity: 1;
   }
-  32% {
+  31% {
     opacity: 1;
   }
-  33% {
+  32% {
     opacity: 0;
   }
 }
