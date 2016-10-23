@@ -15,22 +15,19 @@ section {
 }
 
 .mood-list{
-    padding:5px;       
+    padding:5px; 
+    font-family: 'Shadows Into Light Two', cursive;
+    margin: 0 auto;
+    h2 {
+        font-size: 3em;
+    }
         
     .mood-list{
         padding:5px;
         
         .mood {
             margin-bottom:5%;
+            max-width: 40%;
         }
     }
 }
-
-
-.mood-list {
-    font-family: 'Shadows Into Light Two', cursive;
-    h2 {
-        font-size: 3em;
-    }
-}
-
