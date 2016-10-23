@@ -27,15 +27,15 @@
 #step-2 {
     position:absolute;
     opacity:0;
-    -webkit-animation-delay: 40s; 
-            animation-delay: 40s;
+    -webkit-animation-delay: 18s; 
+            animation-delay: 18s;
 }
 
 #step-3 {
     position:absolute;
     opacity:0;
-    -webkit-animation-delay: 80s; 
-            animation-delay: 80s;
+    -webkit-animation-delay: 33s; 
+            animation-delay: 33s;
 }
 
 .steps {
@@ -47,35 +47,35 @@
     
     @keyframes fadebears {
         0%   { opacity: 1; }
-        32% {opacity: 1;}
-        33% {opacity: 0;}
+        31% {opacity: 1;}
+        32% {opacity: 0;}
     }
 
     /* Firefox < 16 */
     @-moz-keyframes fadebears {
         0%   { opacity: 1; }
-        32% {opacity: 1;}
-        33% {opacity: 0;}
+        31% {opacity: 1;}
+        32% {opacity: 0;}
     }
 
     /* Safari, Chrome and Opera > 12.1 */
     @-webkit-keyframes fadebears {
         0%   { opacity: 1; }
-        32% {opacity: 1;}
-        33% {opacity: 0;}
+        31% {opacity: 1;}
+        32% {opacity: 0;}
     }
 
     /* Internet Explorer */
     @-ms-keyframes fadebears {
         0%   { opacity: 1; }
-        32% {opacity: 1;}
-        33% {opacity: 0;}
+        31% {opacity: 1;}
+        32% {opacity: 0;}
     }
 
     /* Opera < 12.1 */
     @-o-keyframes fadebears {
         0%   { opacity: 1; }
-        32% {opacity: 1;}
-        33% {opacity: 0;}
+        31% {opacity: 1;}
+        32% {opacity: 0;}
 }
 }
